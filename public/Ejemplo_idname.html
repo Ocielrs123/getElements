@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-A-Compatible" content="IE-edge" />
+
+
+    <title>Ejemplo ID</title>
+  </head>
+  <body>
+
+    <p id="hola">Paragraph</p>
+    <p id="hola">Paragraph1</p>
+    <p id="hola">Paragraph2</p>
+    <p id="hola">Paragraph3</p>
+    <p id="hola">Paragraph4</p>
+    <p id="hola">Paragraph5</p>
+    <p id="hola">Paragraph6</p>
+    <p name="hola222">Paragraph222</p>
+
+    <button onclick="myFunction()">id</button>
+    <button onclick="myFunction2()">Name</button>
+
+		<script>
+		function myFunction() {
+		  var p= document.getElementsByTagName('p');
+		  alert(p.length);
+		}
+		</script>
+
+        <script>
+        function myFunction2() {
+        var p2= document.getElementsByName('hola222');
+        alert(p2.length);
+        }
+        </script>
+
+    
+  </body>
+</html>

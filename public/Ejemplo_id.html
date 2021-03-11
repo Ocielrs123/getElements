@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-A-Compatible" content="IE-edge" />
+
+
+    <title>Ejemplo ID</title>
+  </head>
+  <body>
+
+    <p id="colores" >
+        Ejemplo "getElementById", utilizando funciones.
+    </p>
+
+    <button onclick="changeColor('blue');" >
+    Color Azul</button>
+    <button onclick="changeColor('red');" >
+    Color Rojo</button>
+    <button onclick="changeColor('yellow');" >
+    Color Amarillo</button>
+
+    <script>
+        function changeColor(newColor){
+            var ele = document.getElementById('colores');
+            ele.style.color = newColor;
+        }
+    </script>
+    
+  </body>
+</html>
